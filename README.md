@@ -26,10 +26,3 @@ pip install numpy matplotlib opencv-python pyrealsense2 pyapriltags dynamixel-sd
 ```
    - RealSense support also requires the Intel librealsense drivers on your OS.
 3) Connect the OpenManipulator-X (Dynamixel XM430 series) via USB before running any hardware scripts.
-
-## Running Examples
-- Trajectory planning demo: `python codebase/TrajPlanner.py` (adapt setpoints inside the file).  
-- Vision/AprilTag demo: `python codebase/lab6_lab6_starter.py` (requires RealSense and a printed tag).  
-- Joint profiling and data capture: `python codebase/lab1.py` (expects the robot connected and configured).
-
-Most lab/prelab scripts are starters aligned with course instructions; adjust setpoints, file paths, and hardware parameters as needed.
