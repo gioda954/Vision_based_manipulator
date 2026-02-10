@@ -14,6 +14,17 @@ Repository for an EE471 vision-guided OpenManipulator-X project. The `codebase/`
 - `codebase/image_prelab8.jpg`, `codebase/processed_prelab8.jpg`, `camera_robor_trandf.npy`: Sample images/transforms for vision prelabs.
 - `codebase/venv471/`: Local Python 3.11 virtual environment (you can create your own instead)
 
+## Struttura della repo
+I file del corso sono nella root del repository (non dentro `codebase/`), con questa organizzazione principale:
+- `classes/`: astrazioni hardware (Dynamixel, Robot helpers, PID).
+- `data/`: dati di esempio per plot e analisi.
+- `lab*.py`, `prelab*.py`: esercizi progressivi dei laboratori (1–8) e prelab.
+- `TrajPlanner.py`, `MyTrajPlanner.py`: planner di traiettorie in spazio giunti.
+- `lab6_AprilTags.py`, `lab6_Realsense.py`: wrapper visione (AprilTag + RealSense).
+- `lab6_pnp_pose_review.md`: note/review sul PnP pose.
+- `image_prelab8.jpg`, `processed_prelab8.jpg`, `camera_robor_trandf.npy`: asset e transform per vision prelab.
+- `venv471/`: ambiente virtuale locale (opzionale).
+
 ## Getting Started
 1) Create and activate a fresh environment (recommended):
 ```
