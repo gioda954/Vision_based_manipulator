@@ -1,5 +1,5 @@
 # Vision-Based Manipulation
-A step-by-step, open-source learning project for vision-based robotic manipulation with the OpenManipulator-X and Intel RealSense. This repository turns a course-style lab archive into a clean, portfolio-ready roadmap that teaches the fundamentals from kinematics to a full, autonomous sorting system.
+A step-by-step, learning project for vision-based robotic manipulation with the OpenManipulator-X and Intel RealSense. This repository turns a course-style lab archive into a clean, portfolio-ready roadmap that teaches the fundamentals from kinematics to a full, autonomous sorting system.
 
 ![Project Robot](assets/images/robot.png)
 
