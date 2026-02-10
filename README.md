@@ -12,7 +12,7 @@ Repository for an EE471 vision-guided OpenManipulator-X project. The `codebase/`
 - `codebase/lab6_AprilTags.py`, `codebase/lab6_Realsense.py`: AprilTag detection and RealSense wrappers used by `lab6_*` and later vision labs.
 - `codebase/data/`: Example logs (pickle) used by plotting scripts.
 - `codebase/image_prelab8.jpg`, `codebase/processed_prelab8.jpg`, `camera_robor_trandf.npy`: Sample images/transforms for vision prelabs.
-- `codebase/venv471/`: Local Python 3.11 virtual environment (you can create your own instead).
+- `codebase/venv471/`: Local Python 3.11 virtual environment (you can create your own instead)
 
 ## Getting Started
 1) Create and activate a fresh environment (recommended):
