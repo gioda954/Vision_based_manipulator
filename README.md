@@ -4,7 +4,7 @@ Repository for an EE471 vision-guided OpenManipulator-X project. The `codebase/`
 
 ## Layout
 - `codebase/classes/`: Hardware abstractions  
-  - `OM_X_arm.py`, `DX_XM430_W350.py`: Dynamixel SDK wiring and register helpers.  
+  - `OM_X_arm.py`, `DX_XM430_W350.py`: Dynamixel SDK wiring and register helpers  
   - `Robot.py`: Robot convenience methods (time-based profiles, gripper control, FK/Jacobian helpers, ball detection).  
   - `PID.py`: Simple PID utility.
 - `codebase/TrajPlanner.py`, `codebase/MyTrajPlanner.py`: Cubic trajectory planners that generate joint-space waypoints between setpoints.
