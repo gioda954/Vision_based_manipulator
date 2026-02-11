@@ -9,7 +9,7 @@ A step-by-step, learning project for vision-based robotic manipulation with the 
 You will implement a complete perception-to-action pipeline:
 - Detect colored objects in RGB images.
 - Estimate 3D pose from camera data.
-- Transform coordinates into the robot frame.
+- Transform coordinates into the robot frame
 - Solve inverse kinematics.
 - Plan smooth trajectories.
 - Execute grasp and place actions.
