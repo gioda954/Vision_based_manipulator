@@ -16,7 +16,7 @@ You will implement a complete perception-to-action pipeline:
 
 ## Pipeline
 ```
-Camera -> Detection -> Pose Estimation -> Frame Transform -> IK -> Trajectory -> Control -> Grasp -> Sort
+Camera -> Detection -> Pose Estimation -> Frame Transform -> IK -> Trajectory -> Control -> (Grasp -> Sort)
 ```
 
 ## Principles
