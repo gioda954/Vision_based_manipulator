@@ -1,5 +1,4 @@
-# (c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-# Starter script for OpenManipulator-X Robot for EE 471
+
 
 import time
 from core.Robot import Robot
@@ -59,3 +58,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
