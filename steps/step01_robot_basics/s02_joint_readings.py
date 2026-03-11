@@ -1,5 +1,4 @@
-# lab1.py
-# EE 471 — Lab 1: Multi-Joint Readings, Data Analysis, and Visualization
+# Joint readings, data analysis, and visualization.
 # Requirements: time, numpy, matplotlib.pyplot, provided Robot class
 
 import time

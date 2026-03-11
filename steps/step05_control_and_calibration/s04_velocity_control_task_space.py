@@ -267,7 +267,7 @@ def collect_data():
     data_ee_vel_actual = data_ee_vel_actual[:count, :]
     
     # TODO: Save all data to pickle file
-    filename='lab5_4_data.pkl'
+    filename='task_space_velocity_control_data.pkl'
     # Create dictionary with all collected data and control parameters
     print(f"\nSaving data to {filename}...")
     # YOUR CODE HERE

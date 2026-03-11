@@ -1,4 +1,4 @@
-# prelab8.py
+# Color-based ball detection on a sample image.
 import cv2 as cv
 import sys
 from pathlib import Path
@@ -7,7 +7,7 @@ from core.Robot import Robot
 
 def main():
   
-    img_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("assets/images/image_prelab8.jpg")
+    img_path = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("assets/images/sample_ball_detection_input.jpg")
     if not img_path.exists():
         print(f"ERROR: cannot find '{img_path}'. Place the image next to this script or pass a path.")
         sys.exit(1)
@@ -43,7 +43,7 @@ def main():
         cv.destroyAllWindows()
     except cv.error:
         # Headless fallback
-        out_path = Path("assets/images/processed_prelab8.jpg")
+        out_path = Path("assets/images/sample_ball_detection_output.jpg")
         cv.imwrite(str(out_path), vis)
         print(f"GUI not available. Saved visualization to {out_path.resolve()}")
 

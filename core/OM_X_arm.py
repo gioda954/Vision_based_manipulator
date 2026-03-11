@@ -1,6 +1,4 @@
-# (c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-# OM_X_arm class for OpenManipulator-X Robot for EE 471
-# This class/file should not need to be modified in any way for EE 471
+# OM_X_arm base class for the OpenManipulator-X robot.
 
 import serial.tools.list_ports
 from .DX_XM430_W350 import DX_XM430_W350

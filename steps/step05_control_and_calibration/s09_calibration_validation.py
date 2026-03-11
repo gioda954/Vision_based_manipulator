@@ -1,8 +1,6 @@
 """
-Lab 6 Part 3: Validation of Camera-Robot Calibration - STARTER CODE
+Camera-robot calibration validation.
 Tracks an AprilTag and transforms its position from camera to robot frame.
-EE 471: Vision-Based Robotic Manipulation
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
 """
 import numpy as np
 import cv2

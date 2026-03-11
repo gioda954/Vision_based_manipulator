@@ -1,7 +1,6 @@
-# (c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-# Motor Class for Dynamixel (X-Series) XM430-W350
-# The OpenManipulator-X arm consists of five of these units (four joints + gripper).
-# This class abstracts the low-level commands to the Dynamixel motors.
+# Motor interface for Dynamixel XM430-W350 actuators.
+# The OpenManipulator-X arm uses five of these units (four joints plus gripper).
+# This class abstracts low-level register access and motion commands.
 
 from dynamixel_sdk import (
     PortHandler, PacketHandler, GroupBulkWrite, GroupBulkRead,

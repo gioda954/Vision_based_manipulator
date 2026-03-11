@@ -1,8 +1,5 @@
 """
-Lab 6 Part 2: Camera-Robot Calibration - STARTER CODE
-Implements camera-robot calibration using AprilTags and the Kabsch algorithm.
-EE 471: Vision-Based Robotic Manipulation
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
+Camera-robot calibration using AprilTags and the Kabsch algorithm.
 """
 import numpy as np
 import cv2
@@ -18,7 +15,7 @@ def point_registration(points_A, points_B):
     """
     Implement Kabsch algorithm to find optimal rigid transformation between point sets.
     
-    This is the same algorithm from Pre-Lab 6, computing the transformation that
+    This is the same point-registration algorithm used earlier, computing the transformation that
     maps points from coordinate system A to coordinate system B.
     
     Args:

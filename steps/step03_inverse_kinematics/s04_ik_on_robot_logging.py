@@ -1,6 +1,4 @@
-# lab3_3.py
 """
-EE 471 – Lab 3 Part 3
 Validate inverse kinematics on OpenManipulator-X using task-space waypoints.
 
 This version:
@@ -51,7 +49,7 @@ waypoints = [
 def main():
     traj_time = 5.0     # seconds between waypoints
     poll_dt   = 0.5     # log every 0.1s (10 Hz)
-    filename  = "lab3_ik_run.pkl"
+    filename  = "ik_run.pkl"
 
     # Initialize robot
     

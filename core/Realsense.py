@@ -1,6 +1,5 @@
 """
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-Intel RealSense Camera Interface for EE 471
+Intel RealSense camera interface.
 Provides a simplified interface to the RealSense D435 RGB-D camera for robotic vision tasks.
 """
 

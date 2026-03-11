@@ -54,7 +54,7 @@ def main():
     t, q, qdot = simulate_pd(q0_deg=0.0, qref_deg=45.0, Kp=Kp_B, Kd=Kd_B, T=4.0, dt=0.002)
     plot_response(t, q, qdot, qref_deg=45.0,
                   title=f"PD response (Kp={Kp_B}, Kd={Kd_B})",
-                  save_path="prelab1_pd_B.png")
+                  save_path="pd_response_case_b.png")
 
 if __name__ == "__main__":
     main()

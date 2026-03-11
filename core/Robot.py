@@ -1,5 +1,4 @@
-# (c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-# Skeleton Robot class for OpenManipulator-X Robot for EE 471
+# Robot interface for the OpenManipulator-X platform.
 
 import numpy as np
 from .OM_X_arm import OM_X_arm

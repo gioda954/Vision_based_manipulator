@@ -1,8 +1,6 @@
 """
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-AprilTag Detection and Pose Estimation Interface
+AprilTag detection and pose estimation utilities.
 Provides methods for detecting AprilTags in images and estimating their 3D poses.
-Designed for vision-based robotic applications in EE 471.
 """
 
 import cv2

@@ -1,6 +1,5 @@
 """
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-Lab 6 Starter Code: AprilTag Detection and Pose Estimation Test Script
+AprilTag detection and pose estimation demo.
 Tests the integration of RealSense camera with AprilTag detection and pose estimation.
 """
 import numpy as np

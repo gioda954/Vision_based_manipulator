@@ -1,6 +1,5 @@
 """
-(c) 2025 S. Farzan, Electrical Engineering Department, Cal Poly
-Lab 7 Starter Code: Position-Based Visual Servoing with PID Control
+Position-based visual servoing with PID control.
 Implements real-time visual servoing to track an AprilTag target.
 """
 
@@ -72,7 +71,7 @@ def main():
     Main visual servoing control loop.
     """
     print("="*60)
-    print("Lab 7: Position-Based Visual Servoing")
+    print("Position-Based Visual Servoing")
     print("="*60)
     
     # =========================================================================

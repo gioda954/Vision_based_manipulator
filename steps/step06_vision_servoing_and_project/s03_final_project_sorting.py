@@ -1,7 +1,5 @@
 """
-Lab 8 (Final Project): Vision-Guided Robotic Pick-and-Place Sorting System
-Team: [Your Team Name]
-Members: [Team Member Names]
+Vision-guided robotic pick-and-place sorting system.
 
 This script implements a complete robotic sorting system that:
 1. Detects colored balls using computer vision
@@ -226,7 +224,7 @@ def move_trajectory(robot, target_pos, traj_time=TRAJECTORY_TIME):
     robot.write_time(dt)
     
     # ==========================================================================
-    # Execute trajectory with precise timing (see Lab 4)
+    # Execute trajectory with precise timing (see the trajectory planning step)
     # ==========================================================================
     start_time = time.time()
     for t, joints in zip(task_traj[:, 0], joint_traj):
@@ -353,7 +351,7 @@ def main():
            e. Repeat
     """
     print("="*60)
-    print("Lab 8: Robotic Sorting System")
+    print("Robotic Sorting System")
     print("="*60)
     
     # ==========================================================================

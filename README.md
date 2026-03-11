@@ -70,12 +70,12 @@ These are the reusable building blocks used by the learning steps.
 
 ## Assets
 - `assets/images/robot.png`: Main project photo.
-- `assets/images/image_prelab8.jpg`: Sample image for color-ball detection.
-- `assets/images/processed_prelab8.jpg`: Example output from the detection pipeline.
+- `assets/images/sample_ball_detection_input.jpg`: Sample image for color-ball detection.
+- `assets/images/sample_ball_detection_output.jpg`: Example output from the detection pipeline.
 - `assets/calibration/camera_robot_transform.npy`: Example camera-to-robot transform.
 - `assets/logs/Part1_data.pkl`: Example trajectory log for plotting.
 - `assets/logs/traj_log_20251006_115821.pkl`: Example joint log for analysis.
-- `assets/logs/lab_1_data_10s.pk1`: Legacy log from early data collection.
+- `assets/logs/joint_data_10s.pk1`: Legacy log from early data collection.
 
 ## Steps
 Each step is a coherent unit with one or more scripts. Run them in order for the best learning experience.
@@ -122,14 +122,14 @@ Goal: introduce control fundamentals and compute the camera-to-robot transform. 
 - `steps/step05_control_and_calibration/s09_calibration_validation.py`: Validate the calibration transform.
 - `steps/step05_control_and_calibration/pnp_pose_review.md`: PnP pose estimation review notes.
 
-### Step 06 — Visual Servoing and Final Project
+### Step 06 — Visual Servoing and Sorting
 Goal: close the loop with vision and build the autonomous sorting system. Key ideas: perception-driven control, coordinate transforms, and full-system integration.
 - `steps/step06_vision_servoing_and_project/s01_color_ball_detection.py`: Color-based ball detection on sample images.
 - `steps/step06_vision_servoing_and_project/s02_visual_servoing.py`: Position-based visual servoing with AprilTags.
 - `steps/step06_vision_servoing_and_project/s03_final_project_sorting.py`: Full pipeline that detects, picks, and sorts balls.
 
-## Final Project
-The final script implements a full manipulation loop:
+## Integrated Sorting Demo
+The main sorting script implements a full manipulation loop:
 1. Capture RGB frames with RealSense.
 2. Detect colored balls via HSV thresholds and Hough circles.
 3. Estimate 3D ball pose with PnP.
@@ -145,4 +145,3 @@ Several scripts retain TODOs and placeholders to encourage experimentation and t
 
 ## Safety
 Keep the workspace clear, limit speed and torque, and keep an emergency stop nearby when running hardware scripts.
-
