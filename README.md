@@ -144,7 +144,5 @@ The calibration transform lives at `assets/calibration/camera_robot_transform.np
 Several scripts retain TODOs and placeholders to encourage experimentation and tuning. This is intentional for teaching. The README and comments explain expected behavior and provide hints.
 
 ## Safety
-Robotic manipulation is inherently risky. Keep the workspace clear, limit speed and torque, and keep an emergency stop nearby when running hardware scripts.
+Keep the workspace clear, limit speed and torque, and keep an emergency stop nearby when running hardware scripts.
 
-## Legacy
-A legacy virtual environment (`venv471/`) is still present from the original coursework and can be ignored or removed if you prefer a clean project.
